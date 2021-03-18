@@ -95,7 +95,7 @@ void alternateColor(uint32_t color, uint8_t offset, uint8_t wait) {
 
 void setup() {
   ring.begin();           // INITIALIZE NeoPixel strip object
-  ring.setBrightness(36);
+  ring.setBrightness(128);
   ring.show();
 }
 
